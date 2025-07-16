@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fuel-price-api
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    rootDir: .
+    staticPublishPath: public
